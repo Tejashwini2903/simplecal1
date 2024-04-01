@@ -1,0 +1,76 @@
+* {
+      padding: 0;
+      margin: 0;
+
+    }
+    .madimi-one-regular {
+        font-family: "Madimi One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .calculator {
+      margin: auto;
+      width: 550px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      box-sizing: border-box;
+      border: 1px solid rgba(0, 0, 0.1);
+      box-shadow: 0 5px 10px rgba(0, 0, 0.2);
+      padding: 30px 80px 80px 80px;
+     background-color: #EEF5FF;
+
+    }
+
+    label {
+      padding: 10px;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+    }
+
+    input[type="text"] {
+      width: 400px;
+      height: 30px;
+      font-size: 19px;
+      padding-left: 10px;
+      border: 1px solid;
+      border-radius: 20px;
+    }
+
+    button {
+      border-radius: 50px;
+      text-align: center;
+      box-shadow: 0 5px 10px gray;
+      width: 70px;
+      font-size: medium;
+      padding: 10px;
+      color: black;
+      font-size: 19px;
+      border: 1px solid grey;
+      background-color: #365486;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      cursor: pointer;
+      border-top-left-radius: 10px;
+    }
+
+
+    input[type=reset] {
+
+      width: 100px;
+      height: 30px;
+      margin: 0;
+      position: absolute;
+      top: 58%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 200px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: 1px solid;
+      cursor:pointer;
+      background-color:#9BB0C1;
+    }
